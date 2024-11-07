@@ -42,6 +42,9 @@ jobs:
       - name: Install NPM by zxl
         run: npm i -g npm
 
+      - name: Install VitePress
+        run: npm add -D vitepress
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
