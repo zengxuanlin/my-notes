@@ -5,7 +5,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: "日常记录",
   description: "this is my test",
-  base: "/my-notes/",
+  base: "/",
   lastUpdated: true,
   themeConfig: {
     search: {
