@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
-docs/.vitepress
+docs/.vitepress/cache
+docs/.vitepress/dist
 # 压缩文件默认不传上git
 *.zip
 
