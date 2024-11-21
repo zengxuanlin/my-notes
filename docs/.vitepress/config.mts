@@ -1,10 +1,9 @@
 import { defineConfig } from "vitepress";
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-CN',
-  title: "日常记录",
-  description: "this is my test",
+  title: "我的笔记小屋",
+  // description: "this is my test",
   base: "/my-notes/",
   lastUpdated: true,
   themeConfig: {
@@ -17,27 +16,23 @@ export default defineConfig({
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "首页", link: "/" },
+      { text: "小笔记", link: "/mac-software" },
     ],
 
     sidebar: [
-      {
-        text: "技术相关",
-        items: [
-          { text: "前端布局拖动swapy.min.js", link: "/20241107d1" },
-          { text: "websocket封装", link: "/20241107d2" },
-        ],
-      },
       // {
-      //   text: "其他记录",
+      //   text: "技术相关",
       //   items: [
-      //     { text: "生活", link: "/20241107d1" },
+      //     { text: "前端布局拖动swapy.min.js", link: "/20241107d1" },
+      //     { text: "websocket封装", link: "/20241107d2" },
       //   ],
       // },
+      { text: "MAC相关软件", link: "/mac-software" },
+      { text: "收集的网站", link: "/web-site" }
     ],
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    ],
+    // socialLinks: [
+    //   { icon: "github", link: "https://github.com/vuejs/vitepress" },
+    // ],
   },
 });
