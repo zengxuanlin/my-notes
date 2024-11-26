@@ -10,4 +10,4 @@ hero:
 首页啥都没有 别看了
 ```
 
-#### 个人站点采用的[VitePress](https://vitejs.cn/vitepress/)构建
+#### 个人站点
