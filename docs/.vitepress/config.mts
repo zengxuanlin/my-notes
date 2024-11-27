@@ -6,7 +6,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: "我的笔记小屋",
   // description: "this is my test",
-  base: "/",
+  base: "/my-notes/",
   lastUpdated: true,
   themeConfig: {
     search: {
