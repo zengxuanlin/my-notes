@@ -5,6 +5,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   lang: 'zh-CN',
   title: "我的笔记小屋",
+  head: [['link', { rel: 'icon', href: '/my-notes/website-icon.png' }]],
   // description: "this is my test",
   base: "/my-notes/",
   lastUpdated: true,
