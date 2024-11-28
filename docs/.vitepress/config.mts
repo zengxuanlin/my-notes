@@ -10,6 +10,7 @@ export default defineConfig({
   base: "/my-notes/",
   lastUpdated: true,
   themeConfig: {
+    logo:"/website-icon.png",
     search: {
       provider: 'local'
     },
@@ -18,6 +19,10 @@ export default defineConfig({
       pattern: 'https://github.com/zengxuanlin/my-notes/tree/main/docs/:path',
       text: '在GitHub上编辑此页面'
     },
+    // footer: {
+    //   message: 'Released under the MIT License.',
+    //   copyright: 'Copyright © 2019-present Evan You'
+    // },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "日记列表", link: "/mac-software" },

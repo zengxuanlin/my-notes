@@ -10,4 +10,9 @@ hero:
 首页啥都没有 别看了
 ```
 
-#### 个人站点
+#### 留言板集成
+
+twikoo : `https://twikoo.js.org/`
+
+vitepree+twikoo参考: `https://github.com/twikoojs/twikoo/issues/715` 
+
