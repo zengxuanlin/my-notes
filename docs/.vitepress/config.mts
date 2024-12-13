@@ -7,7 +7,7 @@ export default defineConfig({
   title: "我的笔记小屋",
   head: [['link', { rel: 'icon', href: '/my-notes/website-icon.png' }]],
   // description: "this is my test",
-  base: "/my-notes/",
+  base: "/",
   lastUpdated: true,
   themeConfig: {
     logo:"/website-icon.png",
