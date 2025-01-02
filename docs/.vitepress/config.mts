@@ -10,7 +10,7 @@ export default defineConfig({
   base: "/",
   lastUpdated: true,
   themeConfig: {
-    logo:"/website-icon.png",
+    logo: "/website-icon.png",
     search: {
       provider: 'local'
     },
@@ -34,12 +34,14 @@ export default defineConfig({
       {
         text: "技术相关",
         items: [
+          { text: "linux安装clash", link: '/20250102' },
           { text: "前端布局拖动swapy.min.js", link: "/20241107d1" },
           { text: "websocket封装", link: "/20241107d2" },
           { text: "前端复杂密码校验", link: "/passwordValidate" },
           { text: "Nginx 常用的基础配置", link: "/nginxConfig" },
           { text: "wangEditor扩展自定义功能", link: "/wangEditor-extend" },
-          { text: "shell脚本简单爬虫示例", link: '/getDataByShell' }
+          { text: "shell脚本简单爬虫示例", link: '/getDataByShell' },
+
         ],
       },
     ],
