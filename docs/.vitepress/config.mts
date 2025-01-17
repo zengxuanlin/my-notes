@@ -34,6 +34,7 @@ export default defineConfig({
       {
         text: "技术相关",
         items: [
+          { text: "TMDB 单独部署API ", link: '/20250117' },
           { text: "linux安装clash", link: '/20250102' },
           { text: "前端布局拖动swapy.min.js", link: "/20241107d1" },
           { text: "websocket封装", link: "/20241107d2" },
